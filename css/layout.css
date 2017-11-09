@@ -1,0 +1,76 @@
+/* CSS Document */
+
+/* ################################################################# */
+/* HTML Standart Tags */
+/* ################################################################# */
+
+body, html { margin:@; padding:0; width:100%; height:100%;}
+
+h2 { text-transform:uppercase; text-align:center; margin:100px auto 0 auto; font-size:55px;}
+.ka_h2_balken { margin:0 auto 10px auto; height:5px; width:80px;}
+.ka_h3_balken { margin:0 auto 20px auto; height:5px; width:80px;}
+
+.ka_button { text-transform:uppercase; padding:10px 30px 10px 30px; display:inline-block; margin:20px 0 20px 50px;}
+
+a { text-decoration:none; }
+
+/* ################################################################# */
+/* Zusammengefasste Klassen */
+/* ################################################################# */
+
+footer, header, #Startseite .ka_h2_balken, #Kontakt .ka_h2_balken, #Informationen, #Leistungen,  .ka_h3_balken
+{ background:#fff;}
+
+.ka_page
+{ background:#444444;}
+
+#Kontakt h2, #Startseite h2, #Startseite p, #Startseite .ka_button, #Kontakt .ka_kontakt, #Kontakt .ka_kontakt a, #Informationen .ka_motto_bg article p , #Leistungen .ka_leistungen ul li .ka_tag_line h3, #Leistungen .ka_leistungen ul li .ka_tag_line p
+{ color:#fff;}
+
+p, a, header nav ul li a, header nav ul li, header #ka_kontakt_icon .ka_kontakt_icon
+{ color:#999;}
+
+footer, footer a
+{ color:#111; }
+
+#Informationen h2, #Leistungen h2, header nav ul li a:hover, header #ka_kontakt_icon .ka_kontakt_icon:hover
+{ color:#111; }
+
+#Informationen .ka_h2_balken, #Leistungen .ka_h2_balken
+{ background:#111;}
+
+
+p, header nav ul li, .ka_button, footer, #Kontakt .ka_kontakt
+{font-family:'Maven Pro',sans-serif; font-weight:300; line-height:25px; word-spacing:3px;}
+
+h2, #Informationen .ka_motto_bg article p, #Leistungen .ka_leistungen ul li .ka_tag_line h3
+{font-family: 'Anton', sans-serif;}
+
+header, header #ka_kontakt_icon, #ka_kontakt_icon .ka_kontakt_icon, header nav ul li a, header nav ul, header #ka_logo, header #ka_kontakt_icon .ka_kontakt_icon span
+{ transition:all 300ms; -moz-transition:all 300ms; -ms-transition:all 300ms; -o-transition:all 300ms; -transition:all 300ms;}
+
+/* ################################################################# */
+/* Umfassende Objekte & Klassen */
+/* ################################################################# */
+
+.ka_page { width:100%; min-height:100%; overflow:hidden; float:left;}
+
+/* ################################################################# */
+/* Header */
+/* ################################################################# */
+
+header { position:fixed; z-index:99; top:0; left:0; right:0; width:100%; height:40px; background:#fff;}
+
+header #ka_logo { float:left; width:80px; margin:9px 0 0 8px;}
+header #ka_logo img { width:100%; height:auto;}
+
+header #ka_kontakt_icon { float:right; width:72px; height:48px;}
+header #ka_kontakt_icon .ka_kontakt_icon { font-size:12px; width:35px; height:40px; border-left:1px solid #dfdfdf; float:left; margin:0; padding:0;}
+header #ka_kontakt_icon .ka_kontakt_icon span { display:block; margin:12px 0 0 8px; cursor:pointer;}
+
+header nav { float:right; height:40px; margin:0; padding:0;}
+header nav ul { margin:12px 8px 0 0; padding:0; }
+header nav ul li { margin:0 10px 0 0; padding:0; list-style:none; float:left; font-size:11px;}
+header nav ul li a { text-transform:uppercase; font-size:12px;}
+
+/* ############### */
