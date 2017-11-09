@@ -10,7 +10,7 @@ h2 { text-transform:uppercase; text-align:center; margin:100px auto 0 auto; font
 .ka_h2_balken { margin:0 auto 10px auto; height:5px; width:80px;}
 .ka_h3_balken { margin:0 auto 20px auto; height:5px; width:80px;}
 
-.ka_button { text-transform:uppercase; padding:10px 30px 10px 30px; display:inline-block; margin:20px 0 20px 50px;}
+.ka_button { text-transform:uppercase; padding:10px 30px 10px 30px; display:inline-block; margin:20px 0 20px 50px; align-items: center; justify-content: center;}
 
 a { text-decoration:none; }
 
@@ -73,4 +73,11 @@ header nav ul { margin:12px 8px 0 0; padding:0; }
 header nav ul li { margin:0 10px 0 0; padding:0; list-style:none; float:left; font-size:11px;}
 header nav ul li a { text-transform:uppercase; font-size:12px;}
 
-/* ############### */
+/* ################################################################# */
+/* Startseite */
+/* ################################################################# */
+#Startseite { background:url(../img/bg/bg_destiny2.jpg); background-position:center center; background-size:cover; background-attachment: fixed;}
+#Startseite h2 { text-align:center; margin:250px 0 0 50px; font-size:110px; line-height:130px;}
+#Startseite .ka_h2_balken { margin:0 0 20px center;}
+#Startseite p { text-align: center; margin:0 0 20px 50px; max-width:300px;}
+#Startseite .ka_button { border:2px solid #fff;}
