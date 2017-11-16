@@ -1,0 +1,10 @@
+# robots.txt zu http://kappaArmy.bplaced.de
+
+User-agent: *
+Disallow: /css
+Disallow: /badges
+Disallow: /js
+Disallow: /img
+Allow: /clan
+Allow: /img/logo.png
+Allow: index.html
