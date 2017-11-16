@@ -1,0 +1,139 @@
+/* CSS Document */
+
+/* ################################################################# */
+/* HTML Standart Tags */
+/* ################################################################# */
+
+
+
+.player-badge, div, p, span
+{font-family:'Lato',sant-serif; font-size: 16px;}
+/* ################################################################# */
+/* Badges Aufbau */
+/* ################################################################# */.test-badge{color: #fff; display: inline-block; padding:1px 3px; border-radius: 15px; margin-right: 1px; line-height:1.3; font-weight:400; font-size:.8em; margin-left: 3px;}.test-badge2{color: #fff; display: inline-block; padding:1px 3px; margin-right: 1px; line-height:1.3; font-weight:400; font-size:.8em; margin-left: 3px;}.player-badge{color: #fff; display: inline-block; padding:1px 3px; border-radius: 3px; margin-right: 1px; line-height:1.3; font-weight:400; font-size:.8em; margin-left: 3px;}.player-badge>img{display: inline-block; vertical-align: -.1em; height: 1.5em;}.player-badge--grimorie>img{display: inline-block; vertical-align: -.1em; height: 1.1em;}/* ################################################################# *//* Badges F2P *//* ################################################################# */.player-badge--boss
+
+{ background:#fff; text-shadow:none; color:#c53609;}
+
+.player-badge--grimorie
+{ background:#fff; text-shadow: none; color:#056273;}
+
+.player-badge--playtime
+{background:#fff; text-shadow: none; color:#ff6f00}
+
+.player-badge--awards
+{background: #fff; text-shadow: none; color:#7228e4}
+
+/* ################################################################# */
+/* Badges Donate */
+/* ################################################################# */
+.player-badge--donate
+
+{ background:#fff; text-shadow:none; color:#00c853}
+
+.player-badge--donatetwitch
+
+{ background:#fff; text-shadow:none; color:#6c2bce}
+
+/* ################################################################# */
+/* Badges Events */
+/* ################################################################# */
+.player-badge--creator{ background:#fff; text-shadow:none; color:#57bb8a;}
+.player-badge--star
+{ background:#fff; text-shadow:none; color:#daa400;}.player-badge--tim{ background: #fff; text-shadow:none; color:#ff8a00}.player-badge--pvp1{ background:#fff; text-shadow:none; color:#ff0000}.player-badge--pvp2{ background:#fff; text-shadow:none; color:#ff0000; border: 1px solid #ff0000;}.player-badge--pvp3{ background:#37474F; text-shadow:none; color:#ff2c2c; border: 1px solid #ff0000;}/* ################################################################# *//* Badges challenges *//* ################################################################# */.player-badge--challenge{ background:#37474F; text-shadow:none; color:#966f00; border: 1px solid #966f00;}/* ################################################################# */
+/* Badges Leitung */
+/* ################################################################# */
+.player-badge--developer{ background:#fff; text-shadow:none; color:#2196F3;}
+
+/* ################################################################# */
+/* Besondere Badges */
+/* ################################################################# */
+.player-badge--exotic
+{ background:#37474F; text-shadow: none; color: gold; border: 1px solid gold;}
+
+/* ################################################################# */
+/* Badges Fun Ränge */
+/* ################################################################# */
+.player-badge--fun1
+{ background: #37474F; text-shadow: none; color: #01ffaa; border: 1px solid #01ffaa;}
+
+.player-badge--fun2
+{ background: #37474F; text-shadow: none; color: #00e700; border: 1px solid #00e700;}
+/* ################################################################# */
+/* Badges Overwatch Ränge */
+/* ################################################################# */
+
+.player-badge--owbronze
+{ background: #fff; text-shadow: none; color:#802b00;}
+
+.player-badge--owsilver
+{ background: #fff; text-shadow: none; color:#4d4d4d;}
+
+.player-badge--owgold
+{ background: #fff; text-shadow: none; color:#cca300;}
+
+.player-badge--owplatin
+{ background: #fff; text-shadow: none; color:#d9d9d9;}
+
+.player-badge--owdiamond
+{ background: #fff; text-shadow: none; color:#71dada;}
+
+.player-badge--owmaster
+{ background: #fff; text-shadow: none; color:#71dada;}
+
+.player-badge--owgm
+{ background: #fff; text-shadow: none; color:#71dada;}
+
+
+.player-badge--owtop
+{ background: #fff; text-shadow: none; color:#71dada;}
+/* ################################################################# */
+/* Badges ::after */
+/* ################################################################# */
+.player-badge--grimorie:after
+{content: attr(data-count);padding: 1px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(5,98,115,.15); color: #056273; display: inline-block;}
+
+.player-badge--playtime:after
+{content: attr(data-count);padding: 1px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(255,111,0,.15); color: #ff6f00; display: inline-block;}
+
+.player-badge--pvp1::after
+{content: attr(data-count);padding: 1px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(210,16,16,.15); color: #ff0000; display: inline-block;}
+
+.player-badge--pvp2::after
+{content: attr(data-count);padding: 1px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(210,16,16,.15); color: #ff0000; display: inline-block;}
+
+.player-badge--pvp3::after
+{content: attr(data-count);padding: 1px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(210,16,16,.30); color: #ff2c2c; display: inline-block;}
+
+.player-badge--donatetwitch::after
+{content: attr(data-count);padding: 1px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(108,43,206,.15); color: #6c2bce; display: inline-block;}
+
+.player-badge--tim::after
+{content: attr(data-count);padding: 1px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(255, 138, 0,.15); color: #ff8a00; display: inline-block;}
+
+/* ################################################################# */
+/* Badges ::after Overwatch Ranked */
+/* ################################################################# */
+
+.player-badge--owbronze:after
+{content: attr(data-count);padding: 5.7px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(192,123,100,.15); color: #c07b64; display: inline-block;}
+
+.player-badge--owsilver:after
+{content: attr(data-count);padding: 5.7px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(72,72,72,.15); color: #484848; display: inline-block;}
+
+.player-badge--owgold:after
+{content: attr(data-count);padding: 5.7px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(230,204,112,.15); color: #e6cc70; display: inline-block;}
+
+.player-badge--owplatin:after
+{content: attr(data-count);padding: 5.7px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(132,195,195,.15); color: #84c3c3; display: inline-block;}
+
+.player-badge--owdiamond:after
+{content: attr(data-count);padding: 5.7px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(166,187,226,.15); color: #a6bbe2; display: inline-block;}
+
+.player-badge--owmaster:after
+{content: attr(data-count);padding: 5.7px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(242,205,119,.15); color: #f2cd77; display: inline-block;}
+
+.player-badge--owgm:after
+{content: attr(data-count);padding: 5.7px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(249,234,180,.15); color: #f9eab4; display: inline-block;}
+
+.player-badge--owtop:after
+{content: attr(data-count);padding: 5.7px 3px 1px 2px; margin-top: -1px; margin-bottom: -1px; margin-left: 2px; margin-right: -3px; border-radius: 0 3px 3px 0; background: rgba(126,143,196,.15); color: #7e8fc4; display: inline-block;}
