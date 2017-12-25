@@ -25,8 +25,11 @@ footer, header, #Startseite .ka_h2_balken, #Kontakt .ka_h2_balken, #Informatione
 .ka_page
 { background:#444444;}
 
-#Kontakt h2, #Startseite h2, #Startseite p, #Startseite .ka_button, #Kontakt .ka_kontakt, #Kontakt .ka_kontakt a, #Informationen .ka_motto_bg article p , #Team .ka_Team ul li .ka_tag_line h3, #Team .ka_Team ul li .ka_tag_line p, #OwStartseite h2, #OwStartseite p, #OwStartseite .ka_button
+#Kontakt h2, #Startseite h2, #Startseite p, #Startseite .ka_button, #Kontakt .ka_kontakt, #Kontakt .ka_kontakt a, #Informationen .ka_motto_bg article p , #Team .ka_Team ul li .ka_tag_line h3, #Team .ka_Team ul li .ka_tag_line p, #OwStartseite h2, #OwStartseite p, #Ow_Team1 .ka_ow_team1 ul li .ka_ow_tag_line h3
 { color:#fff;}
+
+#Ow_Team1 .ka_ow_team1 ul li .ka_ow_tag_line p
+{ color:#ffb300;}
 
 p, a, header nav ul li a, header nav ul li, header #ka_kontakt_icon .ka_kontakt_icon
 { color:#999;}
@@ -44,7 +47,7 @@ footer, footer a
 p, header nav ul li, .ka_button, footer, #Kontakt .ka_kontakt
 {font-family:'Maven Pro',sans-serif; font-weight:300; line-height:25px; word-spacing:3px;}
 
-h2, #Informationen .ka_motto_bg article p, #Team .ka_Team ul li .ka_tag_line h3
+h2, #Informationen .ka_motto_bg article p, #Team .ka_Team ul li .ka_tag_line h3, #Ow_Team1 .ka_ow_team1 ul li .ka_ow_tag_line h3
 {font-family: 'Anton', sans-serif;}
 
 header, header #ka_kontakt_icon, #ka_kontakt_icon .ka_kontakt_icon, header nav ul li a, header nav ul, header #ka_logo, header #ka_kontakt_icon .ka_kontakt_icon span
@@ -131,11 +134,11 @@ header nav ul li a { text-transform:uppercase; font-size:12px;}
 
 
   /* ################################################################# */
-  /* Comp - Overwatch - Team 1 */
+  /* Comp - Overwatch - Team 1 - */
   /* ################################################################# */
   #Ow_Team1 .ka_ow_team1 { width:90%; margin:50px auto 0 auto;}
   #Ow_Team1 .ka_ow_team1 ul { width:100%; height:100%; margin:0; padding:0;}
-  #Ow_Team1 .ka_ow_team1 ul li { position:relative; list-style:none; width:30%; margin:0 5% 0 0; float:left; background-position:left bottom; background-size:cover; background-attachment: fixed; min-height:650px;}
+  #Ow_Team1 .ka_ow_team1 ul li { position:relative; list-style:none; width:30%; margin:0 5% 0 0; float:left; background-position:left bottom; background-size:cover; background-attachment: fixed; min-height:650px; margin: 0 100px 100px auto;}
   #Ow_Team1 .ka_ow_team1 ul li:last-child { margin:0 0 0 0;}
 
   #Ow_Team1 .ka_ow_team1 ul li .ka_ow_tag_line { position:absolute; bottom:25px; width:80%; left:25px;}
@@ -143,5 +146,5 @@ header nav ul li a { text-transform:uppercase; font-size:12px;}
   #Ow_Team1 .ka_ow_team1 ul li .ka_ow_tag_line p { margin:0; padding:0;}
   #Ow_Team1 .ka_ow_team1 ul li .ka_ow_tag_line h3 { text-transform:uppercase; font-size:65px; margin:0 0 10px 0;}
 
-  #Ow_Team1 .ka_ow_team1 ul li.ka_TerrorF60 { background:url(../img/bg/bg_clan_startseite.jpg); background-attachment: fixed;}
-  #Ow_Team1 .ka_ow_team1 ul li.ka_Schnils { background:url(../img/bg/bg_clan_startseite.jpg); background-attachment: fixed;}
+  #Ow_Team1 .ka_ow_team1 ul li.ka_TerrorF60 { background:url(../img/ow/comp/Mercy.png); background-position: top center ; background-position-y: -200px;}
+  #Ow_Team1 .ka_ow_team1 ul li.ka_Schnils { background:url(../img/ow/comp/Reinhardt.png); background-position: top center; }
