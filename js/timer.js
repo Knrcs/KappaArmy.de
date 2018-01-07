@@ -1,4 +1,4 @@
-var ReleaseDate = new Date("Dec 28, 2017 01:00:00").getTime();
+var ReleaseDate = new Date("Feb 26, 2018 01:00:00").getTime();
 var TimerFunction = setInterval(function(){
 
   var DatumHeute = new Date().getTime();
@@ -14,7 +14,7 @@ var TimerFunction = setInterval(function(){
 
   if(Differenz < 0 ) {
     clearInterval(TimerFunction);
-    document.getElementById('timer').innerHTML = "Season ist Vorbei";
+    document.getElementById('timer').innerHTML = "Season ist Vorbei!";
   }
 
 }, 1000)
