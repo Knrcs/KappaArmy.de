@@ -8,3 +8,8 @@ Disallow: /img
 Allow: /clan
 Allow: /img/logo.png
 Allow: index.html
+Allow: /twitch
+Allow: /discord
+Allow: /comp
+Allow: /ext
+Allow: /Wartung
